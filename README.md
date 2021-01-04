@@ -29,31 +29,31 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| distanceToCity |  |  | 
-| getX |  |  | 
-| getY |  |  | 
-| toString |  |  | 
+| distanceToCity | T |  | 
+| getX | D | Generate code : Getter | 
+| getY | D | Generate code : Getter | 
+| toString | I | No test needed, just a simple static test using getX and getY | 
 
 ### Class Tour
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| containsCity  |  |  |
-| getCity  |  |  |
-| getDistance  |  |  |
-| getFitness  |  |  |
-| setCity  |  |  |
-| tourSize  |  |  |
-| toString  |  |  |
+| containsCity  | D | Call an already defined function  |
+| getCity  | D | Generate code |
+| getDistance  | T |  |
+| getFitness  | T |  |
+| setCity  | D | Generate code : Setter |
+| tourSize  | D | Call a function (size()) |
+| toString  | I | No test needed |
 
 ### Class Population
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| getFittest  |  |  |
-| getTour  |  |  |
-| populationSize  |  |  |
-| saveTour  |  |  |
+| getFittest  | T |  |
+| getTour  | D | Getter |
+| populationSize  | D | Call a function (length)|
+| saveTour  | D | Generate code : Setter |
 
 ## Functions to test now
 
